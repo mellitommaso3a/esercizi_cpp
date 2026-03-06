@@ -2,18 +2,17 @@
 #include <string>
 using namespace std;
 int n;                                                           //jpxfrd
-int i=1;
-int molt;
+int molt=1;
 int main()
 {
 
 cout<<"inserire un numero ";
 cin>>n;
 
-while(i<=n){
+while(n>1){
 
-    n=n*i;
-    i--;
+    molt=molt*n;
+    n--;
 }
-cout<<n;
+cout<<molt;
 }
