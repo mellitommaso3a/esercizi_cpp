@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 using namespace std;
+
+bool x=true;
 double n;
 int i=0;
 double sum;
