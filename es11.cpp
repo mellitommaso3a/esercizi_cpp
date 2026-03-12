@@ -1,6 +1,6 @@
-#include <iostream>
-#include <string>
-using namespace std;
+#include <iostream>                   
+#include <string>                                      //jpxfrd
+using namespace std; 
 int km;
 string tipo;
 string carb;
