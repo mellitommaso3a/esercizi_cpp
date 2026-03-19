@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    cout << "Quanti numeri vuoi inserire? ";
+    cin >> n;
+
+    double* numeri = new double[n];
+    double somma = 0.0;
+
+    for (int i = 0; i < n; i++) {
+        cout << "Inserisci il numero " << (i + 1) << ": ";
+        cin >> numeri[i];
+        somma += numeri[i];
+    }
+
+    double media = somma / n;
+    cout << "La media dei numeri inseriti è: " << media << endl;
+
+    delete[] numeri;
+    return 0;
+}
